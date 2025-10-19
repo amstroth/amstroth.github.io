@@ -1,0 +1,39 @@
+:root {
+    --off-white: #fff8f0;
+    --red: #dd2d4a;
+    --pink: #f8bbd0;
+    --white: #ffffff;
+    --mint: #cef9f2;
+    --jet: #323031;
+}
+
+body {
+    background-color: var(--off-white);
+    color: var(--jet);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--off-white);
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--red);
+}
+
+h2 {
+    color: var(--pink);
+}
+
+h3 {
+    color: var(--mint);
+}
+
+p {
+    background-color: var(--pink);
+    line-height: 1.6;
+}
