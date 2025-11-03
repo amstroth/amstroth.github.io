@@ -229,7 +229,7 @@ hr{
 
     nav ul {
         flex-direction: row;
-        margin: 0;
+        margin: 1vw 5vw 0 5vw;
     }
 
     h1 {
@@ -237,6 +237,11 @@ hr{
         grid-column: 1;
         grid-row: 2;
         margin-left: 0;
+    }
+
+    hr {
+        grid-column: 1;
+        margin: 2vw;
     }
 
     #about, #lessons, #examples {
